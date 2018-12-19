@@ -18,15 +18,10 @@ function validatePword() {
     }
 	else
 	{
-		return true;
+		document.getElementById("content").innerHTML='<object type="text/html" data="hiddeninplainsight.html" ></object>';
+		//return true;
 	}
 } 
-
-
-
-
-
-
 
 var modal = document.getElementById('myModal');
 
