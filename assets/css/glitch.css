@@ -184,3 +184,16 @@
     from { opacity: 1; }
     to   { opacity: 0; }
 }
+.spoiler, .spoiler2{ 
+	color: grey; 
+	background-color:grey;
+	border-radius: 30%;
+}
+
+.spoiler:hover{
+  color: white;
+  }
+
+.spoiler2:hover { 
+  background-color: grey; 
+  }
