@@ -200,6 +200,8 @@ var main = (function($) { var _ = {
 					window.setTimeout(function() {
 						_.$body.removeClass('is-loading-2');
 					}, 100 + Math.max(_.settings.layoutDuration - 150, 0));
+					
+					document.getElementById("main").scrollTop = 0;
 
 				});
 
@@ -258,7 +260,7 @@ var main = (function($) { var _ = {
 								_.previous();
 
 						// Overscroll fix.
-							var	th = _.$viewer.outerHeight(),
+							/*var	th = _.$viewer.outerHeight(),
 								ts = (_.$viewer.get(0).scrollHeight - _.$viewer.scrollTop());
 
 							if ((_.$viewer.scrollTop() <= 0 && diffY < 0)
@@ -268,6 +270,7 @@ var main = (function($) { var _ = {
 								event.stopPropagation();
 
 							}
+							*/
 
 					});
 
@@ -324,7 +327,7 @@ var main = (function($) { var _ = {
 								_.hide();
 
 						// Overscroll fix.
-							var	th = _.$main.outerHeight(),
+							/*var	th = _.$main.outerHeight(),
 								ts = (_.$main.get(0).scrollHeight - _.$main.scrollTop());
 
 							if ((_.$main.scrollTop() <= 0 && diffY < 0)
@@ -334,6 +337,7 @@ var main = (function($) { var _ = {
 								event.stopPropagation();
 
 							}
+							*/
 
 					});
 		// Toggle.
