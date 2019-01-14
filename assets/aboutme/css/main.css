@@ -1,19 +1,14 @@
+@import url(font-awesome.min.css);
 
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
-@import url(font-awesome.min.css);
-@font-face {
-    
-    src: url("fonts/lmromanslant10-regular-webfont.eot");
-    src: url("fonts/lmromanslant10-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lmromanslant10-regular-webfont.woff") format("woff"), url("fonts/lmromanslant10-regular-webfont.ttf") format("truetype"), url("fonts/lmromanslant10-regular-webfont.svg#latin_modern_roman_slante10Rg") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
+
+
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 html {
-    font-family: sans-serif;
+    
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -230,7 +225,7 @@ th {
 }
 
 @font-face {
-    font-family: 'Bree Serif', serif;
+    
     src: url("fonts/icomoon.eot?3hi6ws");
     src: url("fonts/icomoon.eot?3hi6ws#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?3hi6ws") format("truetype"), url("fonts/icomoon.woff?3hi6ws") format("woff"), url("fonts/icomoon.svg?3hi6ws#icomoon") format("svg");
     font-weight: normal;
@@ -239,7 +234,7 @@ th {
 
 [class^="icon-"],
 [class*=" icon-"] {
-    font-family: 'icomoon' !important;
+    
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -274,21 +269,7 @@ th {
     content: "\e903"
 }
 
-body {
-    background-color: #fff;
-    font-size: 16px;
-    line-height: 1.6;
-    font-family: "Raleway", Helvetica, sans-serif;
-    color: #111;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%
-}
 
-@media (max-width: 415px) {
-    body {
-        font-size: 14px
-    }
-}
 
 ::-moz-selection {
     background: #FFF498
